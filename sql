@@ -1,0 +1,13 @@
+ select * from students;
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A101', 'Archer', 'Jonathan', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A102', 'Cisco', 'Benjamin', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A103', 'Janeway', 'Jonathan', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A104', 'Archer', 'Jonathan', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A105', 'Archer', 'Jonathan', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A106', 'Archer', 'Jonathan', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A107', 'Archer', 'Jonathan', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A108', 'Archer', 'Jonathan', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A109', 'Archer', 'Jonathan', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A1010', 'Archer', 'Jonathan', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A1011', 'Archer', 'Jonathan', 'Group 1');
+INSERT INTO students( studentid, studentlastname, studentfirstname, programgroup) VALUES ( 'A1012', 'Archer', 'Jonathan', 'Group 1');
