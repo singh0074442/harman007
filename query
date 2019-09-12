@@ -4,3 +4,13 @@ studentlastname varchar (20),
 studentfirstname varchar (20),
 group varchar (20),
 primarykey (studentid));
+
+
+create table programgroups(
+programid varchar (15) not null,
+programname varchar (20),
+classid varchar (20),
+sectionid varchar (20),
+primary key (programid)
+);
+
