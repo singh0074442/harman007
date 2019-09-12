@@ -6,6 +6,12 @@ group varchar (20),
 primarykey (studentid));
 
 
+
+
+
+
+
+
 create table programgroups(
 programid varchar (15) not null,
 programname varchar (20),
@@ -13,10 +19,6 @@ classid varchar (20),
 sectionid varchar (20),
 primary key (programid)
 );
-
-
-
-
 INSERT INTO programgroups( programid, programname, classid, sectionid) VALUES ( 1, 'group1', 'CSD2354', 9);
 INSERT INTO programgroups( programid, programname, classid, sectionid) VALUES ( 2, 'group1', 'CSD2206', 9);
 INSERT INTO programgroups( programid, programname, classid, sectionid) VALUES ( 3, 'group1', 'CSD2058', 9);
