@@ -1,0 +1,6 @@
+create table students(
+studentid varchar (15) not null,
+studentlastname varchar (20),
+studentfirstname varchar (20),
+group varchar (20),
+primarykey (studentid));
