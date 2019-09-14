@@ -11,3 +11,40 @@ else repeat asking with feedback
 
 
 end loop
+
+
+
+
+
+
+
+import random
+random_number = random.randint(1,100)
+print random_number
+
+
+
+
+#loop until the user guess the correct number
+
+
+user_number = int(input("enter the number"))
+print user_number
+
+
+
+while random_number != user_number:
+    if (user_number < random_number):
+        print("guess a bigger number")
+    if(user_number > random_number):
+        print("guess a smaller number")
+
+random_number = int(input("enter the number: "))
+
+
+
+print("success!!")
+
+
+
+#end loop
