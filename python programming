@@ -1,0 +1,13 @@
+loop until the guess is correct
+
+ask the user about number?
+
+
+
+if ( number is correct, exit loop)
+else repeat asking with feedback
+
+
+
+
+end loop
