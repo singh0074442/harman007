@@ -44,3 +44,12 @@ INSERT INTO programgroups( programid, programname, classid, sectionid) VALUES ( 
 INSERT INTO programgroups( programid, programname, classid, sectionid) VALUES ( 11, 'group2', 'CDS1114', 4);
 INSERT INTO programgroups( programid, programname, classid, sectionid) VALUES ( 12, 'group2', 'CSD1170', 4);
 
+week 3 (farmer joe)
+create table veggies(
+
+veggie_id varchar(20),
+veggie_price money,
+veggie_name varchar(20),
+veggie_type varchar(20),
+primary key (veggie_id)
+);
