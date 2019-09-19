@@ -68,3 +68,22 @@ SELECT TABLE_SCHEMA ,
        NUMERIC_SCALE ,
        DATETIME_PRECISION
 FROM   INFORMATION_SCHEMA.COLUMNS;
+
+
+
+
+
+
+farmer joe
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('1',1,'Carrots');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('2',9,'Peas');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('3',3,'Tomatoes ');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('4',4,'Corn');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('5',7,'Squash');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('6',4,'Artichokes');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('7',9,'Aubergines');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('8',2,'Cauliflower');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('9',12,'Green bean');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('10',3,'Broccoflower');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('11',6,'Brussels Sprouts');
+insert into  veggies (veggie_id, veggie_price,veggie_name) values ('12',5,'potatoe');
