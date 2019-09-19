@@ -119,6 +119,13 @@ select * from lot
 
 
 
+select veggies.veggie_name, 
+lot.quantity_of_vegatable * veggies.veggie_price 
+from lot, veggies
+where lot.veggie_id =
+veggies.veggie_id
+
+
 
 
 
