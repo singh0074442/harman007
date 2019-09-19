@@ -163,6 +163,22 @@ TOTAL AMOUNT OF ALL VEGATABLES starting the Letter B
 
 
 
+select veggie_name  
+from field
+where LEFT(veggie_name, 1) = 'B'
+
+
+select veggie_name  
+from field
+where LEN(veggie_name) <= 4 
+
+
+select * 
+from veggies v 
+join lot l 
+ON v.veggie_id = l.veggie_id
+
+
 
 
 
