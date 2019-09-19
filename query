@@ -149,6 +149,17 @@ from lot, veggies
 where lot.veggie_id =
 veggies.veggie_id
 order by veggie_name
+Challenge 4: 
+a.  TOTAL AMOUNT OF ALL VEGATABLES ON THE FARM, ALL LOTS
+ 
+select sum(lots.quantity_of_vegatables )
+from lots, veggies
+where lots.veggie_id =
+veggies.veggie_id
+ 
+Challenge 5: 
+https://www.tutorialspoint.com/sql/sql-string-functions.htm
+TOTAL AMOUNT OF ALL VEGATABLES starting the Letter B
 
 
 
