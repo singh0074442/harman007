@@ -94,3 +94,32 @@ insert into  veggies (veggie_id, veggie_price,veggie_name) values ('12',5,'potat
 
 
 
+create table lot(
+lot_id varchar(20),
+quantity_of_vegatable varchar(20),
+lot_name varchar(20),
+veggie_id varchar(20),
+primary key (lot_id)
+);
+
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('1','788', 'RED', '2') 
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('2','563', 'ORANGE', '12') 
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('3','837', 'YELLOW', '3') 
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('4','428', 'BROWN', '7') 
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('5','221', 'GREEN','9')
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('6','273', 'VIOLET', '5') 
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('7','406', 'FUSCHIA', '1') 
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('8','907', 'PURPLE', '11') 
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('9','798', 'CHARTREUSE', '10') 
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('10','296', 'GREY', '8') 
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('11','598', 'MAGENTA', '6') 
+insert into lot ( lot_id, quantity_of_vegatable, lot_name, veggie_id) VALUES ('12','231', 'CYAN', '4') 
+select * from lot
+
+
+
+
+
+
+
+
