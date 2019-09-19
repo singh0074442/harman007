@@ -129,4 +129,29 @@ veggies.veggie_id
 
 
 
+challenge 1
+select veggies.veggie_name,
+lot.quantity_of_vegatable * veggies.veggie_price
+from lot, veggies
+where lot.veggie_id =
+veggies.veggie_id
+
+challenge 2
+select  min(lot.quantity_of_vegatable) , min(veggies.veggie_name)
+from lot, veggies
+where lot.veggie_id = veggies.veggie_id 
+and veggies.veggie_type = 'root'
+
+challenge 3
+select veggies.veggie_name, 
+lot.quantity_of_vegatable * veggies.veggie_price as total 
+from lot, veggies
+where lot.veggie_id =
+veggies.veggie_id
+order by veggie_name
+
+
+
+
+
 
