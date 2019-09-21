@@ -92,6 +92,33 @@ print("success!! number of trials = " + str(number_of_trials))
 #end loop
 
 
+((((((week3))))))))))
+class student:
+
+    def  __init__(self,first_name,last_name,student_id):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.student_id = student_id
+
+
+
+
+class cestarcollege:
+
+
+
+            def __init__(self,address,manager):
+                self.address = address
+                self.manager = manager
+
+
+            student1 =student("harman", "singh", "c0789767")
+            student2=student("adam", "singh", "c0987654")
+
+            print(student1.first_name)
+            print(student2.first_name)
+
+
 
 
 
