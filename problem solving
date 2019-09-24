@@ -17,3 +17,53 @@ STRING COMMAND
         
         
         System.out.println("My full name is:" + fullName);
+        
+        
+        
+        
+        
+        
+        
+        (((((24 september+++))))))
+        
+        
+        
+        
+        
+        to make a comment /*  */
+  //
+
+
+
+Sum in java enter value by user 
+ 
+         Scanner input = new Scanner(System.in);
+         int a;
+         int b;
+         int sum;
+         System.out.println("plz enter the first value");
+         a= input.nextInt();
+         System.out.println("plz enter second value ");
+         b= input.nextInt();
+         sum = a+b;
+         System.out.println("the sum of" + a + "and" + b + " is " +sum);
+       
+       
+       simple sum in java 
+       int a=2;
+         int b=4;
+         int sum = a + b;
+         System.out.println("the sum of " + a + " and " + b + " is " + sum );    
+         
+string name ( print one word) 
+         Scanner input = new Scanner (System.in);
+         System.out.println(" plz enter ur name");
+         String name = input.next();
+         String name1 = input.next();
+         System.out.println("you enetred" + name + " " + name1);         
+
+string name (for whole previous line print)
+          Scanner input= new Scanner(System.in);
+        System.out.println("plz enetr ur name");
+        String name = input.nextLine();
+        System.out.println(" you entered " + name);
