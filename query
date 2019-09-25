@@ -181,4 +181,53 @@ ON v.veggie_id = l.veggie_id
 
 
 
+(((((((more data)))))))))
+
+
+
+
+create table truck(
+truck_number int,
+driver_name varchar(20),
+order_number int,
+
+);
+
+
+insert into truck ( truck_number, driver_name, order_number) VALUES ('35','manveer', '736');
+insert into truck ( truck_number, driver_name, order_number) VALUES ('2','mandeep', '342');
+insert into truck ( truck_number, driver_name, order_number) VALUES ('6','rajat', '123');
+insert into truck ( truck_number, driver_name, order_number) VALUES ('8','johnny', '345');
+insert into truck ( truck_number, driver_name, order_number) VALUES ('9','tommy', '788');
+insert into truck ( truck_number, driver_name, order_number) VALUES ('12','price', '2345');
+insert into truck ( truck_number, driver_name, order_number) VALUES ('11','harry', '221');
+insert into truck ( truck_number, driver_name, order_number) VALUES ('34','hennery', '114');
+insert into truck ( truck_number, driver_name, order_number) VALUES ('22','yuri', '3456');
+insert into truck ( truck_number, driver_name, order_number) VALUES ('56','luca', '117');
+
+
+
+
+create table Warehouse(
+item_number varchar(20),
+Item_description varchar(20),
+shelf_number varchar(20),
+quantity_in_stock int,
+
+);
+insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('1','table', '33', '2');
+insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('2','chair', '23', '35');
+insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('3','fridge', '56', '23');
+insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('4','fan', '45', '67');
+insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('5','oven', '78', '89');
+insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('6','ac', '34', '11');
+insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('7','heater', '12', '7');
+insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('8','cardboard', '1', '112');
+insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('9','paintings', '4', '78');
+insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in_stock) VALUES ('10','doors', '89', '45');
+
+
+
+
+
 
