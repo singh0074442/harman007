@@ -231,3 +231,47 @@ insert into Warehouse ( item_number, Item_description, shelf_number, quantity_in
 
 
 
+create table orders(
+
+order_id varchar(20),
+item_number varchar(20),
+truck_number varchar(20),
+primary key (order_id),
+);
+
+
+alter table Warehouse
+add item_price money;
+
+
+
+select * from Warehouse;
+
+
+
+select * from orders;
+
+
+insert into orders (order_id,item_number,truck_number) values ('order01','1','35');
+insert into orders (order_id,item_number,truck_number) values ('order02','2','2');
+insert into orders (order_id,item_number,truck_number) values ('order03','3','6');
+insert into orders (order_id,item_number,truck_number) values ('order04','4','8');
+insert into orders (order_id,item_number,truck_number) values ('order05','5','9');
+insert into orders (order_id,item_number,truck_number) values ('order06','6','12');
+insert into orders (order_id,item_number,truck_number) values ('order07','7','11');
+insert into orders (order_id,item_number,truck_number) values ('order08','8','34');
+insert into orders (order_id,item_number,truck_number) values ('order09','9','22');
+insert into orders (order_id,item_number,truck_number) values ('order10','10','56');
+
+
+
+
+select * from orders as o,truck as t,Warehouse as w
+where o.item_number=w.item_number and 
+o.truck_number=t.truck_number;
+
+
+
+
+
+
