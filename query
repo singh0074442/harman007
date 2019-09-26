@@ -273,5 +273,13 @@ o.truck_number=t.truck_number;
 
 
 
+((((((((INNER JOIN))))))))
+SELECT VEGGIES.VEGGIE_ID, LOT.LOT_NAME
+FROM VEGGIES
+INNER JOIN LOT ON LOT.VEGGIE_ID = VEGGIES.VEGGIE_ID;
+
+
+
+
 
 
