@@ -152,5 +152,17 @@ print(circle3.getperimeter())
 
 
 
+circle3= circle(78)
+print("area of circle  is "+ str(circle3.getarea()))
+print("perimeter of circle  is "+ str(circle3.getperimeter()))
+circle3.setradius(14)
+print("area of  new circle  is "+ str(circle3.getarea()))
+print("perimeter of  new circle  is "+ str(circle3.getperimeter()))
+
+
+
+
+
+
 
 
