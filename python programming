@@ -117,6 +117,35 @@ class cestarcollege:
 
             print(student1.first_name)
             print(student2.first_name)
+            
+            
+            
+            
+    (((((((((((        week 4     ))))))))))))))))
+    class circle:
+    def __init__(self,radius):
+        self.radius = radius
+
+
+    def setradius(self,newradius):
+         self.radius = newradius
+
+
+
+
+    def getarea(self):
+        return  3.14 * self.radius ** 2
+
+
+    def getperimeter(self):
+         return 2 * 3.14*self.radius
+
+
+
+
+circle3= circle(78)
+print(circle3.getarea)
+print(circle3.getperimeter())
 
 
 
