@@ -114,3 +114,21 @@ string name (for whole previous line print)
        
        System.out.println("TotalPrice :" + TotalPrice);
        
+       
+       
+       
+       
+       ((((((((week5 )))))))))))))
+       
+       
+       
+       Scanner input = new Scanner (System.in);
+        System.out.println("please enter two values");
+        
+        int x = input.nextInt();
+        int y = input.nextInt();
+        
+        
+        double avg = (x+y)/2;
+        System.out.println("the average is" +avg);
+       
