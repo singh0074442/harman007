@@ -121,14 +121,32 @@ string name (for whole previous line print)
        ((((((((week5 )))))))))))))
        
        
+       USE METHOD
        
-       Scanner input = new Scanner (System.in);
+       
+       
+        public static double average(int x,int y){ //here we are using average as method//
+        double avg = (x+y)/2.0;
+        return avg;
+     }
+     
+     public static void showmessage(){  // void is something empty//
+         System.out.println("fuck you bitch");
+     }
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        
+        Scanner input = new Scanner (System.in);
+        showmessage();
         System.out.println("please enter two values");
         
         int x = input.nextInt();
         int y = input.nextInt();
         
         
-        double avg = (x+y)/2;
+        double avg = average(x,y);
         System.out.println("the average is" +avg);
        
