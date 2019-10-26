@@ -182,6 +182,78 @@ class WiredPhone:
 
     def hangup(self):
         print("hanging up now.....")
+        
+        
+        ((((((((calendar))))))))
+        
+        class Event:
+    def __init__(self, beg_hr, beg_min, end_hr, end_min, location, desc):
+        self.beg_hr = beg_hr
+        self.beg_min = beg_min
+        self.end_hr = end_hr
+        self.end_min = end_min
+        self.desc = desc
+        self.location = location
+
+    def printEvent(self):
+        result = "From " + str(self.beg_hr) + ":" + str(self.beg_min)
+        result += " To " + str(self.end_hr) + ":" + str(self.end_min) + "\n"
+        result += "Description: " + self.desc + "\n"
+        result += "Location: " + self.location +"\n"
+        result += "----------------------------------------------------------"
+        return result
+
+
+class Day:
+    def __init__(self, name):
+        self.name = name
+        self.events = []
+
+    def addEvent(self, event):
+        self.events.append(event)
+
+    def printEvents(self):
+
+        for i in self.events:
+            print(i.printEvent())
+
+class Month:
+    def __init__(self, month_numerical_value):
+        self.month_numerical_value = month_numerical_value
+        if month_numerical_value == 2:
+            self.number_of_days = 28
+        elif month_numerical_value == 1 or month_numerical_value == 3 or month_numerical_value == 5 or month_numerical_value == 7:
+            self.number_of_days = 31
+        else:
+            self.number_of_days = 30
+        self.days = [self.number_of_days]
+
+class Year:
+    def __init__(self, year_numerical_value):
+        self.months = [12]
+
+class Calendar:
+    def __init__(self):
+        self.years = [100]
+        #1996 - 2096
+
+    def initialize_calendar(self):
+        for y in range(1996, 2029):
+            yr = Year(y)
+            self.years[y-1996] = yr
+            for m in range(0, 11):
+                mon = Month(m)
+                yr.months[m] = mon
+                for d in range(0, mon.number_of_days-1):
+                    dy = Day(d)
+                    mon.days[d] = dy
+                    print(str(d) + " - " + str(m))
+        print("Initialization completed.")
+
+
+    def addEvent(self, beg_hr, beg_min, end_hr, end_min, location, desc, year, month, day):
+        tmp_event = Event(beg_hr, beg_min, end_hr, end_min, location, desc)
+
 
 
 
