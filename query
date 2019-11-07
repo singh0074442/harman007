@@ -400,6 +400,14 @@ order by EmployeeNumber
 
 
 
+select *
+from tblTransaction as T
+where EmployeeNumber in (126,127,128,129)
+and year (DateOfTransaction) = 2015
+order by EmployeeNumber
+
+
+
 
 
 
