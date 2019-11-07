@@ -383,6 +383,19 @@ where EmployeeLastName not like '%a%a%t'
 
 
 
+select  count(*), EmployeeLastName
+from tblTransaction as T
+inner join tblEmployee as E
+
+on E.EmployeeNumber = T.EmployeeNumber
+
+where EmployeeLastName  like 'a%l'
+group by EmployeeLastName;
+
+
+
+
+
 
 
 
