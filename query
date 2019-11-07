@@ -393,6 +393,11 @@ where EmployeeLastName  like 'a%l'
 group by EmployeeLastName;
 
 
+select *
+from tblTransaction as T
+where EmployeeNumber in (126,127,128,129)
+order by EmployeeNumber
+
 
 
 
