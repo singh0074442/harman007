@@ -365,6 +365,22 @@ right join tblEmployee as E
 
 on E.EmployeeNumber = T.EmployeeNumber;
 
+select *
+from tblTransaction as T
+inner join tblEmployee as E
+
+on E.EmployeeNumber = T.EmployeeNumber
+
+where EmployeeLastName like '%a%a%t'
+
+select *
+from tblTransaction as T
+inner join tblEmployee as E
+
+on E.EmployeeNumber = T.EmployeeNumber
+
+where EmployeeLastName not like '%a%a%t'
+
 
 
 
